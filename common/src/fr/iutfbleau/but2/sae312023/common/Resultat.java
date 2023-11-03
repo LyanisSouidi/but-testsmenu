@@ -11,6 +11,11 @@ import java.util.List;
  */
 public class Resultat {
     /**
+     * Identifiant du résultat.
+     */
+    private int id;
+
+    /**
      * Liste des éléments visités.
      */
     private List<ElementVisite> elementsVisites;
@@ -19,6 +24,14 @@ public class Resultat {
      * Protocole associé au résultat.
      */
     private Protocole protocole;
+
+    /**
+     * Renvoie l'identifiant du résultat.
+     * @return l'identifiant du résultat
+     */
+    public int getId() {
+        return this.id;
+    }
 
     /**
      * Renvoie la liste des éléments visités.
