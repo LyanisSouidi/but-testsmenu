@@ -1,4 +1,4 @@
-package fr.iutfbleau.but2.sae312023;
+package fr.iutfbleau.but2.sae312023.common;
 
 /**
  * La classe <code>Element</code> représente un élément d'un menu.

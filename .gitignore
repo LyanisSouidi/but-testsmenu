@@ -1,4 +1,8 @@
-/.idea
-/build
+# Fichiers java compilés
 *.class
+*.jar
+
+# Fichiers de configuration d'IDE
+/.idea
 *.iml
+.vscode

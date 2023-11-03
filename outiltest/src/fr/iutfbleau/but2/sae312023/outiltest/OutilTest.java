@@ -1,6 +1,6 @@
-package fr.iutfbleau.but2.sae312023;
+package fr.iutfbleau.but2.sae312023.outiltest;
 
-class Programme1 {
+class OutilTest {
     public static void main(String[] args) {
         System.out.println("Outil de test");
     }
