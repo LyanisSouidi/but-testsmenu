@@ -5,7 +5,7 @@ de déterminer la meilleure organisation possible.
 
 Le projet est décomposé en 3 parties :
 - [Outil de test](./outiltest) : executé par un testeur afin de générer des données;
-- [Sythèse des tests](./sythesetests) : executé par un développeur afin de réorganiser
+- [Sythèse des tests](./synthesetests) : executé par un développeur afin de réorganiser
     les menus en fonction des résultats des tests;
 - [Module commun](./common) : contient les classes communes aux deux programmes
     précédents.

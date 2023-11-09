@@ -1,7 +1,7 @@
 # Évaluation de menu : Module commun
 
 Ce module contient des classes communes aux programmes [outil de test](../outiltest)
-et [synthèse des tests](../sythesetests).
+et [synthèse des tests](../synthesetests).
 
 ## Base de données
 
