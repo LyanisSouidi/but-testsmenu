@@ -6,3 +6,6 @@
 /.idea
 *.iml
 .vscode
+
+# Fichier de configuration du programme
+*/app.properties
