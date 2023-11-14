@@ -1,19 +1,14 @@
 package fr.iutfbleau.but2.sae312023.common;
 
 /**
- * La classe <code>ElementVisite</code> est utilisé pour contenir les attributs
+ * La classe <code>ElementVisiteModel</code> est utilisé pour contenir les attributs
  * d'un élement du menu visité lors d'un test.
  * @version 1.0
  * @author Lyanis Souidi
  * @author Hugo Dimitrijevic
  * @author Aissame Bai
  */
-public class ElementVisite {
-    /**
-     * Élément visité.
-     */
-    private Element element;
-
+public class ElementVisite extends Element {
     /**
      * Ordre de visite de l'élément.
      */
@@ -31,17 +26,9 @@ public class ElementVisite {
      * @param resultat le résultat associé à l'élément visité
      */
     public ElementVisite(Element element, int ordre, Resultat resultat) {
-        this.element = element;
+        super(element.getId(), element.getTitre(), element.getParent(), element.getProtocole(), element.getPriorite(), element.getNombreVisite());
         this.ordre = ordre;
         this.resultat = resultat;
-    }
-
-    /**
-     * Renvoie l'élément visité.
-     * @return l'élément visité
-     */
-    public Element getElement() {
-        return this.element;
     }
 
     /**
