@@ -1,0 +1,2 @@
+Main-Class: fr.iutfbleau.but2.sae312023.outiltest.OutilTest
+Class-Path: mariadb-client.jar

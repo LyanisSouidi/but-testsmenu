@@ -1,6 +1,10 @@
-# Fichiers java compilés
+# Fichiers compilés
 *.class
 *.jar
+!common/lib/*.jar
+*/build/
+*/out/
+*/doc/
 
 # Fichiers de configuration d'IDE
 /.idea

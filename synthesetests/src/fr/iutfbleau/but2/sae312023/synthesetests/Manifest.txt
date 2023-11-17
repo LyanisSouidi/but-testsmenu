@@ -1,0 +1,2 @@
+Main-Class: fr.iutfbleau.but2.sae312023.synthesetests.SyntheseTests
+Class-Path: mariadb-client.jar
